@@ -1,0 +1,175 @@
+:root{
+    font-size:xx-large;
+    background-color: #585882;
+     font-family: Arial, sans-serif;
+     margin: 0;
+}
+
+hr{
+    height: 2px;
+    background-color: white;
+}
+
+.titulo{
+    background-color: rgb(108, 11, 130);
+    height: 100px;
+    width: 600px ;
+    box-shadow: black;
+    color: white;
+
+    margin: 0 auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.3cm;
+}
+
+.textoI{
+    background-color: rgb(108, 11, 130);
+    color: white;
+    height: 500px;
+    width: 400px; 
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 5px; /* Grosor del borde */
+    border-style: solid ; /* Estilo del borde */
+    border-color: #ffffff; /* Color del borde */
+}
+
+.black{
+    color: black;
+}
+
+.lista-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: #4a4f78; /* Color de fondo del contenedor */
+    color: #fff; /* Color de texto principal */
+}
+
+.lista-container h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #333456; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto del encabezado */
+}
+
+.lista-container {
+    list-style-type: circle; /* Tipo de marcador de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.lista-container li {
+    padding: 10px;
+    background-color: #e5a5cf; /* Color de fondo de elementos impares */
+}
+
+.lista-container li:nth-child(even) {
+    background-color: #8f5e99; /* Color de fondo de elementos pares */
+}
+
+.lista-container li::marker {
+    color: #000000; /* Cambia el color a dorado o el color que prefieras */
+    background-color: #333456;
+}
+
+.padre{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textoD{
+    background-color: rgb(108, 11, 130);
+    color: white;
+    height: 500px;
+    width: 400px; 
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 5px; /* Grosor del borde */
+    border-style: solid ; /* Estilo del borde */
+    border-color: #ffffff; /* Color del borde */
+}
+
+.lista3ros {
+    margin: 0;
+    padding: 20px;
+    background-color: #4a4f78; /* Color de fondo del contenedor */
+    color: #fff; /* Color del texto */
+}
+
+.lista3{
+
+    margin: 0 auto;
+    text-align: center;
+    color: #000; /* Color del texto del encabezado */
+    font-weight: bold;
+}
+
+.lis3 {
+    list-style-type: upper-roman; /* Numeración romana */
+    padding: 400 40px; /* Ajuste de padding para alineación a la derecha */
+    margin: 0;
+    text-align: left; /* Alineación del texto de los elementos */
+}
+
+.lis3 li {
+    padding: 5px 0; /* Espaciado entre elementos */
+    color: #fff; /* Color del texto de los elementos */
+}
+
+.tachado.tachado:nth-child(3n){
+   color: #000;
+    text-decoration: line-through;
+}
+
+.padre2{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    background-color: #e8b0ca; /* Color de fondo del contenedor exterior */
+    border: 2px solid #000; /* Borde negro */
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.hijo1{
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    background-color: #3a3c5a; /* Color de fondo del contenedor medio */
+    border: 2px dashed #917b9f; /* Borde punteado */
+    border-radius: 15px; /* Bordes redondeados */
+   margin: 0 auto;
+   border-width: 8px;
+}
+
+.hijo2{
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 110px;
+    background-color: #e8b0ca; /* Color de fondo del contenedor interior */
+    border: 2px solid #000; /* Borde negro */
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    font-size: 18px;
+    color: #000; /* Color del texto */
+}
