@@ -1,0 +1,13 @@
+h1{
+    margin: 10px auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle; 
+  }
+  
+  ul li::marker {
+    background-color: #303b52; 
+    color: #000000;
+  }

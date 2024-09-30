@@ -1,0 +1,10 @@
+.texto{
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    background-color: #827397;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 20px;
+}

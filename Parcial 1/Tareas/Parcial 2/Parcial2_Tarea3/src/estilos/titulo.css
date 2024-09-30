@@ -1,0 +1,10 @@
+.titulo{
+    height: 80px;
+    width: 100vb;
+    margin: 10px auto;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: #827397;
+    cursor: default;
+  }

@@ -1,0 +1,19 @@
+.card{
+  width: 60vw;  
+  background-color: rgb(199, 213, 228);
+  color: rgb(19, 19, 44);
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  padding: 1rem;
+  
+  display: flex;
+  gap: 15px;
+}
+
+.card img{
+  width: 400px;
+  order: -1;
+  border: solid rgb(255, 255, 255) 3px;
+  border-radius: 10px;
+}
