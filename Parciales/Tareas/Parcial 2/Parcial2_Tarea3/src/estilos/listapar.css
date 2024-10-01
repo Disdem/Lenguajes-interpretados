@@ -1,0 +1,23 @@
+h1{
+    margin: 10px auto;
+    text-align: center;
+}
+
+#listapar ul {
+    background-color: #303b53;
+    list-style-type: circle; 
+  }
+
+#listapar ul li{
+    background-color: #827397;
+}
+
+#listapar ul li:nth-child(2n){
+  color: #000000;
+    background-color: #ce98ce;
+  }
+  
+  ul li::marker:nth-child() {
+    background-color: #303b52; 
+    color: #000000;
+  }

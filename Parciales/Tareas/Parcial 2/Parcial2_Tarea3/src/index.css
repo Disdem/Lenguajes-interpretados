@@ -21,7 +21,14 @@ h1 {
   line-height: 1.1;
 }
 
+.container {
+  display: flex;
+  flex-direction: column; /* Los elementos se apilarán verticalmente */
+  /* Otras propiedades de diseño para .container */
+}
 
-
+.hr{
+  width: 99.8%;
+}
 
 

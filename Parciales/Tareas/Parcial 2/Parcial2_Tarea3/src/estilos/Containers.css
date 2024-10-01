@@ -1,0 +1,25 @@
+.container1{
+    margin: 10px auto;
+    background-color:  rgb(223, 152, 176);
+    height: 280px;
+    width: 90%;
+    border: 2px solid black ;
+}
+
+.container2{
+    margin: 30px auto;
+    background-color: #303b52;
+    height: 80%;
+    width: 90%;
+    border: 8px dashed #827397;
+    border-radius: 10px;
+}
+
+.container3{
+    margin: 20px auto;
+    background-color: rgb(223, 152, 176);
+    height: 80%;
+    width: 90%;
+    border: 2px solid black ;
+    text-align: center;
+}

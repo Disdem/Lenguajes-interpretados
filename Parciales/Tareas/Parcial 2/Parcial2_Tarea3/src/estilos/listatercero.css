@@ -1,0 +1,8 @@
+#lista3 ol{
+    list-style-type: upper-roman;
+}
+
+#lista3 ol li:nth-child(3n){
+    color: black;
+    text-decoration: line-through;
+}
