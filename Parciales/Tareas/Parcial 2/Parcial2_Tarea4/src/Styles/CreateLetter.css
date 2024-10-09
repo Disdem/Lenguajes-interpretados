@@ -1,0 +1,69 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+:root{
+    margin: 1rem;
+    color: black;
+    
+}
+
+.espaciado{
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.margen{
+    border-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.Formulario{
+    color: white;
+    width: 85vw;
+}
+
+.ContainerCart{
+    margin-top: 1rem;
+    background-color: rgb(15, 130, 109);
+    border-radius: 2rem;
+    width: 95vw;
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 1rem;
+    box-shadow: 7px 6px 1rem white;
+}
+
+.Carta{
+    margin: 2rem;
+    text-align: left;
+    padding: 5px;
+    border: 2px dashed black;
+    border-radius: 1.5rem;
+    box-shadow: 7px 7px 1rem black;
+    background-color: rgb(136, 0, 255);
+    height: 80%;
+    width: 25%;
+    overflow: hidden;
+}
+
+.ContainerImg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ContainerImg img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1rem;
+  }
