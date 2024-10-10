@@ -1,8 +1,10 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
+import { Characters } from "./types/type"
+import Character from "./components/Character"
 
+const url = "https://rickandmortyapi.com/api/character"
 const RickMorty = () => {
 
-    const url = "https://rickandmortyapi.com/api/character"
 
     useEffect(() => {
       fetchcharactes()
