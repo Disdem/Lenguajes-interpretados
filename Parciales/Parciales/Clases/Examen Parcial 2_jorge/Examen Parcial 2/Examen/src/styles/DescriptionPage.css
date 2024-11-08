@@ -1,0 +1,39 @@
+.description-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .centered-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .centered-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-text-row {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+  
+  .text-container {
+    flex: 2;
+  }

@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #176b7a;
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#titulo{
+  text-align: center;
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+
+body {
+  margin: 0;
+  position: relative; /* Agrega esto */
+}
+
+.Cartas1{
+  background-color: #258090;
+  margin: 10px;
+  width: 360px;
+  border: white solid 5px;
+  flex-basis: 25%;
+}
+
+button{
+  height: 35px;
+  width: 70px;
+  background-color:#177a42;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: yellowgreen;
+  }
+
+  .navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 7vh; /* Ajusta el ancho según lo que necesites */
+    height: 100vh;
+    background-color: #359aab; 
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.navbar h1 {
+    text-align: center; 
+    margin: 10px 0; /* Agrega un margen vertical para separar los títulos */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.navbar a:hover {
+  background-color: #444;
+}
+
+.titulodes{
+  font-size: 3rem;
+  margin-left: 11vh;
+  text-align: center;
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+.textodes{
+  margin-left: 11vh;
+  font-size: 2rem;
+}
+
+.containerdes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+body {
+  margin: 0;
+}

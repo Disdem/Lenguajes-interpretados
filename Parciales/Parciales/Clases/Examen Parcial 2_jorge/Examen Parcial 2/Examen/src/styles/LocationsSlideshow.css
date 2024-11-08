@@ -1,0 +1,57 @@
+.slideshow-container {
+    position: relative;
+    max-width: 800px; /* Aumentado el ancho para un mejor ajuste */
+    margin: 50px auto; /* Centrado y con margen superior */
+    padding: 30px; /* Aumento del espaciado interno */
+    background-color: #e0f7fa; /* Color de fondo más claro */
+    border-radius: 20px; /* Bordes más redondeados */
+    text-align: center; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más sutil */
+}
+
+.location-slide {
+    opacity: 0;
+    animation: fadeIn 1s forwards; /* Animación de entrada */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.slideshow-controls {
+    position: absolute;
+    width: 100%; /* Controladores ocupan todo el ancho */
+    top: 50%; /* Posicionar verticalmente en el centro */
+    display: flex; 
+    justify-content: space-between; /* Espacio entre botones */
+    transform: translateY(-50%); /* Ajuste para centrar */
+}
+
+.prev-btn, .next-btn {
+    background-color: #1abc9c; /* Color de fondo de los botones */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 15px; /* Aumento del espaciado interno */
+    border-radius: 50%; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar el mouse */
+    transition: background-color 0.3s ease, transform 0.2s; /* Transiciones suaves */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Sombra para los botones */
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #000000; /* Color de fondo al pasar el mouse */
+    transform: scale(1.1); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Estilo de texto dentro del slideshow (opcional) */
+.slideshow-container h2 {
+    color: #34495e; /* Color del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.slideshow-container p {
+    color: #555; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 0; /* Sin margen */
+}

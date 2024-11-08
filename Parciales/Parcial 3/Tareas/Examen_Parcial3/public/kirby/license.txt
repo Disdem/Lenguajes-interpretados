@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kirby
+* source:	https://sketchfab.com/3d-models/kirby-2b54ad3ea4c7427aa1bbacbc83ea670b
+* author:	ETAN798 (https://sketchfab.com/ETAN798)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kirby" (https://sketchfab.com/3d-models/kirby-2b54ad3ea4c7427aa1bbacbc83ea670b) by ETAN798 (https://sketchfab.com/ETAN798) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
